@@ -20,7 +20,13 @@ function Welcome() {
         <p>Paul, Rohan & the Clubhouse team</p>
       </div>
       <div className={styles.actionBtn}>
-        <Link to="/get_username">Get Your Username</Link>
+        <Link
+          to="/get_username"
+          className="primaryBtn d-flex align-items-center"
+        >
+          Get Your Username
+        </Link>
+        <Link to="/sign_in" >Have An Invite Text? Sign In</Link>
       </div>
     </div>
   );
