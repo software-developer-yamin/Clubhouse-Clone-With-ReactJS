@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom";
 import styles from "../styles/Welcome.module.css";
-import { Routes, Route, Link } from "react-router-dom";
 
 function Welcome() {
   return (
@@ -19,8 +19,8 @@ function Welcome() {
         </p>
         <p>Paul, Rohan & the Clubhouse team</p>
       </div>
-      <div className={styles.actionBtn} >
-<Link to="/get_username">Get Your Username</Link>
+      <div className={styles.actionBtn}>
+        <Link to="/get_username">Get Your Username</Link>
       </div>
     </div>
   );
