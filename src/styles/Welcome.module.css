@@ -43,3 +43,8 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.actionBtn > a:last-child:hover {
+  color: #00a2ff;
+  font-weight: 500;
+}

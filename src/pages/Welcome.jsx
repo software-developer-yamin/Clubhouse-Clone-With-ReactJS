@@ -26,7 +26,7 @@ function Welcome() {
         >
           Get Your Username
         </Link>
-        <Link to="/sign_in" >Have An Invite Text? Sign In</Link>
+        <Link to="/sign_in" className="mt-2" >Have An Invite Text? Sign In</Link>
       </div>
     </div>
   );
